@@ -1,0 +1,32 @@
+#options {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 40%;
+    gap: 50px;
+    height: 60px;
+}
+
+#options button {
+
+    flex-direction: row;
+    height: 50px;
+    width: 40px;
+    flex: 1 0 auto; 
+}
+
+h1 {
+    margin: auto;
+    align-self: center;
+}
+
+button.selected {
+    transition: 50ms;
+    border-radius: 3px;
+    border-color: aqua;
+}
+
+#sketchBox {
+    display: flex;
+}
