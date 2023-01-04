@@ -18,7 +18,7 @@
 
 h1 {
     margin: auto;
-    align-self: center;
+    text-align: center;
 }
 
 button.selected {
@@ -29,4 +29,16 @@ button.selected {
 
 #sketchBox {
     display: flex;
+    border-style: solid;
+}
+
+.gridSquare {
+    height: 40px;
+    width: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
